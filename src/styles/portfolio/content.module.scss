@@ -1,0 +1,43 @@
+@use "../main";
+
+.container {
+    position: relative;
+    max-width: 500px;
+    width: 60%;
+    margin: 350px auto 100px auto;
+
+    .title {
+        font-family: main.$avenirMed;
+        font-size: 24px;
+        letter-spacing: 0.5px;
+        color: main.$lightBackground;
+        margin-bottom: 35px;
+    }
+
+    .divider {
+        height: 2px;
+        width: 100px;
+        background-color: main.$lightBackground;
+        margin-bottom: 30px;
+    }
+
+    .paragraph {
+        font-family: main.$quattro;
+        font-size: 18px;
+        line-height: 35px;
+        letter-spacing: 0.52px;
+        color: main.$lightBackground;
+        position: relative;
+        margin-bottom: 35px;
+
+        .link {
+            text-decoration: underline;
+            outline: none;
+            color: main.$darkGrey;
+        }
+    }
+
+    .bottom {
+        height: 125px;
+    }
+}
